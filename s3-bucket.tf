@@ -3,7 +3,6 @@ module "s3-bucket" {
   version = "2.2.0"
 
   bucket = "my-s3-bucket-dzila-tf-workshop"
-  bucket_prefix = var.prefix
   acl    = "private"
 
   versioning = {
